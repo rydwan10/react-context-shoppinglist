@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 4rem;
+    position: absolute;
+    width: 41.4rem;
+    /* margin-top: 100px; */
+}
+@media(max-width: 700px) {
+    footer {
+        position: relative;
+        width: 100%;
+    }
+}
