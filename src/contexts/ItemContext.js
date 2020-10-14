@@ -8,7 +8,7 @@ const ItemContextProvider = (props) => {
     const [items, dispatch] = useReducer(itemReducer, [
         { id: uuidv4(), item: 'Onion', note: 'buy the extra large one' },
         { id: uuidv4(), item: 'Carrot', note: 'choose the bright one' },
-        { id: uuidv4(), item: 'Garlic', note: '' }
+        { id: uuidv4(), item: 'Garlic', note: '' },
     ])
     
     return (

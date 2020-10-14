@@ -21,22 +21,40 @@ input[type='text'] {
     border: none;
 }
 
-input[type="submit"] {
+.add-item {
     margin: 0 auto;
     display: block;
     margin-top: 1.3rem;
     padding: 12px 36px;
     font-size: 1.3rem;
     border: none;
-    color: #000000;
-    background: #ffffff;
+    color: #ffffff;
+    background: rgba(250, 120, 44);
     margin-bottom: 3.5rem;
 }
 
-input[type='submit']:hover {
+.add-item:hover {
     cursor: pointer;
+    color: #000000;
+    background: #ffffff;
+ 
+}
+
+.hide-button {
+    margin: 0 12px 0 auto;
+    display: block;
+    margin-top: 1.3rem;
+    padding: 12px 36px;
+    font-size: 1.3rem;
+    border: none;
     color: #ffffff;
     background: rgba(250, 120, 44);
+}
+
+.hide-button:hover {
+    cursor: pointer;
+    color: #000000;
+    background: #ffffff;
 }
 
 

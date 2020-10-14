@@ -1,0 +1,33 @@
+.empty {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    margin: 0.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empty p {
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+}
+
+.clear-all-button {
+
+    display: block;
+    margin: 0 0.4rem 12px auto;
+    margin-top: 1.3rem;
+    padding: 8px 24px;
+    font-size: 1.2rem;
+    border: none;
+    color: #ffffff;
+    background: rgb(248, 74, 74);
+}
+
+.clear-all-button:hover {
+    cursor: pointer;
+    background: rgb(246, 28, 28);
+}
+
