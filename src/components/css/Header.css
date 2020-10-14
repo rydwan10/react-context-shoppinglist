@@ -1,0 +1,28 @@
+.header-wrapper {
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+img  {
+    width: 7rem;
+    height: auto;
+    /* position: static; */
+}
+
+.header-title {
+    font-size: 2.3rem;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+
+.item-left {
+    font-size: 1.5rem;
+}
+
+.title-wrapper {
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: 28%;
+}

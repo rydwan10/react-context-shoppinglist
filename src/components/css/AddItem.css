@@ -1,0 +1,39 @@
+form {
+    padding: 9px;
+}
+
+label {
+    font-size: 1.3rem;
+    background: rgba(250, 120, 44, 0.712);
+    display: block;
+    width: 30%;
+    border-radius: 0 12px 0 12px;
+    padding: 6px 0px 6px 10px;
+    color: #ffffff;
+    margin-bottom: 5px;
+
+}
+
+input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1.3rem;
+    border: none;
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    display: block;
+    margin-top: 1.3rem;
+    padding: 12px 36px;
+    font-size: 1.3rem;
+}
+
+
+.form-note {
+    margin-top: 1.4rem;
+}
+
+.form-item {
+    margin-top: 1.3rem;
+}
